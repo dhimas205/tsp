@@ -1,0 +1,20 @@
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    border: none;
+    text-indent: 100%;
+    background: url(../img/back-top.png) no-repeat 14px 16px #ddd;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+#toTop:hover{
+    background: url(../img/back-top.png) no-repeat 14px 16px #777;
+}
